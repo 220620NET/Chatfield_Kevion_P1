@@ -1,0 +1,68 @@
+using Models;
+// using Services;
+using DataAccess;
+// Create a UserName
+
+namespace UI;
+    public static class MainMenu{
+        public static void Start()
+        {
+            bool looped = true;
+            
+            do
+            {
+            Console.WriteLine("Welcome to ERS!");
+            Console.WriteLine("Please select from the following: ");
+            Console.WriteLine("[1] Returning User \n[2] NEW User \n[0] Exit");
+            string inputLogin = Console.ReadLine();
+                switch (inputLogin){
+                    case "1":
+                        User();
+                        break;
+                    case "2":
+                        Registration();
+                        break;
+                    case "0":
+                        Console.WriteLine("Thanks for visiting us. Have a great day!");
+                        Environment.Exit(0);
+                        break;
+                    default:
+                        Console.WriteLine("Try using only numbers. Something went wrong.");
+                        break;
+                    }
+            } while(looped);
+        }
+
+
+    public static void Registration()
+    {
+        User uii = new User();
+        
+        bool continued = true;
+        do
+        {    
+        Console.WriteLine("Welcome Back! ");
+        Console.WriteLine("Enter your USERNAME below:");
+        string username = Console.ReadLine();
+        Console.WriteLine("Enter your PASSWORD:");
+        string password = Console.ReadLine();
+        Console.WriteLine("Thanks");       
+        Console.WriteLine("Select your current:\n [a] Associate\n [b] Manager");
+        int inputRole = Convert.ToInt16(Console.ReadLine());
+            switch (inputRole)
+            {   
+                case 'a':
+                    uii.role = "Associate";
+                    Start();
+                    break;
+                case 'b':
+                    uii.role = "Manager";
+                    Start();
+                    break;
+                default:
+                    Console.WriteLine("No problem! Try again with lowercase letters.");
+                    break;
+            } while(continued);
+        }    
+    }
+}

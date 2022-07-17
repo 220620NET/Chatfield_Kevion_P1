@@ -1,11 +1,50 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MIcrosoft.Data.SqlClient": "4.8.3",
+          "Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess/DataAccess.csproj",
+      "msbuildProject": "../DataAccess/DataAccess.csproj"
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "DataAccess >= 1.0.0",
+      "Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\12295\\.nuget\\packages\\": {}
@@ -13,11 +52,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Revature\\Chatfield_Kevion_P1\\ERS\\Services\\Services.csproj",
+      "projectUniqueName": "c:\\Revature\\Chatfield_Kevion_P1\\ERS\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Revature\\Chatfield_Kevion_P1\\ERS\\Services\\Services.csproj",
+      "projectPath": "c:\\Revature\\Chatfield_Kevion_P1\\ERS\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\12295\\.nuget\\packages\\",
-      "outputPath": "C:\\Revature\\Chatfield_Kevion_P1\\ERS\\Services\\obj\\",
+      "outputPath": "c:\\Revature\\Chatfield_Kevion_P1\\ERS\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\12295\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +72,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\Revature\\Chatfield_Kevion_P1\\ERS\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "c:\\Revature\\Chatfield_Kevion_P1\\ERS\\DataAccess\\DataAccess.csproj"
+            },
+            "c:\\Revature\\Chatfield_Kevion_P1\\ERS\\Models\\Models.csproj": {
+              "projectPath": "c:\\Revature\\Chatfield_Kevion_P1\\ERS\\Models\\Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -64,5 +110,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.5.22307.18\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1103",
+      "level": "Error",
+      "message": "Unable to find a stable package MIcrosoft.Data.SqlClient with version (>= 4.8.3)\r\n  - Found 42 version(s) in nuget.org [ Nearest version: 5.0.0-preview1.22069.1 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages",
+      "libraryId": "MIcrosoft.Data.SqlClient",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

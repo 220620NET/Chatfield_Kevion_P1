@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "WbncfgG6AnkU7NJK5FRwJgsGEnsXwiwVhvIaR5X3ovt2FcL0fPA4f3wbdl9LIn8FxtXDRenmiYqmGl/P30RKXQ==",
-  "success": true,
-  "projectFilePath": "C:\\Revature\\Chatfield_Kevion_P1\\ERS\\Services\\Services.csproj",
+  "dgSpecHash": "OhZZJBZy+b0Vo9oiS4OBLL+TrvWaPATsnUITTdrgZeJv7qYH6hzmF8W9VqNByrYEoeN8ZRckCz3bnSi84WRRwQ==",
+  "success": false,
+  "projectFilePath": "c:\\Revature\\Chatfield_Kevion_P1\\ERS\\Services\\Services.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1103",
+      "level": "Error",
+      "message": "Unable to find a stable package MIcrosoft.Data.SqlClient with version (>= 4.8.3)\r\n  - Found 42 version(s) in nuget.org [ Nearest version: 5.0.0-preview1.22069.1 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages",
+      "libraryId": "MIcrosoft.Data.SqlClient",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+using Models;
+using Services;
+namespace UI;
+
+new MainMenu(new AuthService(new UserRepository())).Start();
