@@ -1,0 +1,6 @@
+bin
+obj
+
+connectionString.txt
+appsettings.json
+appsettings.Development.json
