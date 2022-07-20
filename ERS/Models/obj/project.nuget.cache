@@ -4,5 +4,12 @@
   "success": true,
   "projectFilePath": "c:\\Revature\\Chatfield_Kevion_P1\\ERS\\Models\\Models.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file c:\\Revature\\Chatfield_Kevion_P1\\ERS\\Models\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

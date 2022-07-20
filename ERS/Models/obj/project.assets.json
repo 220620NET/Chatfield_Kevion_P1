@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Revature\\Chatfield_Kevion_P1\\ERS\\Models\\Models.csproj",
+      "projectUniqueName": "c:\\Revature\\Chatfield_Kevion_P1\\ERS\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "C:\\Revature\\Chatfield_Kevion_P1\\ERS\\Models\\Models.csproj",
+      "projectPath": "c:\\Revature\\Chatfield_Kevion_P1\\ERS\\Models\\Models.csproj",
       "packagesPath": "C:\\Users\\12295\\.nuget\\packages\\",
-      "outputPath": "C:\\Revature\\Chatfield_Kevion_P1\\ERS\\Models\\obj\\",
+      "outputPath": "c:\\Revature\\Chatfield_Kevion_P1\\ERS\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\12295\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,5 +64,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.5.22307.18\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file c:\\Revature\\Chatfield_Kevion_P1\\ERS\\Models\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

@@ -2335,11 +2335,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Revature\\Chatfield_Kevion_P1\\ERS\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "c:\\Revature\\Chatfield_Kevion_P1\\ERS\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Revature\\Chatfield_Kevion_P1\\ERS\\DataAccess\\DataAccess.csproj",
+      "projectPath": "c:\\Revature\\Chatfield_Kevion_P1\\ERS\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\12295\\.nuget\\packages\\",
-      "outputPath": "C:\\Revature\\Chatfield_Kevion_P1\\ERS\\DataAccess\\obj\\",
+      "outputPath": "c:\\Revature\\Chatfield_Kevion_P1\\ERS\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\12295\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2356,8 +2356,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Revature\\Chatfield_Kevion_P1\\ERS\\Models\\Models.csproj": {
-              "projectPath": "C:\\Revature\\Chatfield_Kevion_P1\\ERS\\Models\\Models.csproj"
+            "c:\\Revature\\Chatfield_Kevion_P1\\ERS\\Models\\Models.csproj": {
+              "projectPath": "c:\\Revature\\Chatfield_Kevion_P1\\ERS\\Models\\Models.csproj"
             }
           }
         }

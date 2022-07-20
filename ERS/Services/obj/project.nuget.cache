@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "OhZZJBZy+b0Vo9oiS4OBLL+TrvWaPATsnUITTdrgZeJv7qYH6hzmF8W9VqNByrYEoeN8ZRckCz3bnSi84WRRwQ==",
   "success": false,
   "projectFilePath": "c:\\Revature\\Chatfield_Kevion_P1\\ERS\\Services\\Services.csproj",
@@ -15,4 +16,11 @@
       ]
     }
   ]
+=======
+  "dgSpecHash": "XBCSshP6lK1hdBG2uwq/PuFFfF5Q4lYwuLXJfN2RFwtaWOXuV6NQKvEpLPi+L/ZleKY+sEpIMJVhirPW8L4FeA==",
+  "success": true,
+  "projectFilePath": "C:\\Revature\\Chatfield_Kevion_P1\\ERS\\Services\\Services.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> Stashed changes
 }
